@@ -1,0 +1,7 @@
+curl -X POST -i -F 'file=@./somefile' -H 'Authorization: Bearer token' mp3converter.com/upload
+
+curl -X POST http://mp3converter.com -u email@email.com:password123
+
+rg -g '!venv/*' txt
+mongofiles --db=mp3 get_id --local=test.mp '{"$oid":"string_version_of_id"}'
+curl --output mp3_download.mp3 -X GET -H 'Authorization: Bearer Token' http://localhost:8080/download?fid=621...

@@ -1,0 +1,7 @@
+flask
+pika
+pymongo
+moviepy
+jedi
+pylint
+requests
